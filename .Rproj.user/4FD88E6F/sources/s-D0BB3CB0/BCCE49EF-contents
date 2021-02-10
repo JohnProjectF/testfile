@@ -1,0 +1,6 @@
+context("correct output")
+
+test_that("length is long enough", {
+  expect_length(vec, 2)
+  expect_length(vec, 3)
+})

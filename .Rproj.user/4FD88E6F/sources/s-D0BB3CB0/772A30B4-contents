@@ -1,0 +1,6 @@
+context("correct output")
+vec <- c(2,3)
+test_that("length is long enough", {
+  expect_length(addFirstTwo(c(2,3)), 2)
+  expect_length(vec, 2)
+})
